@@ -1,0 +1,59 @@
+.tools__wrapper {
+  padding-bottom: 90px;
+  background-image: url("../img/backgrounds/tools-bg.svg");
+  background-position: center bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.tools__title {
+  max-width: 462px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.tool__title {
+  margin: 0 0 26px;
+  @include media-mobile {
+    margin-bottom: 5px;
+  }
+}
+
+.tool__text {
+  text-align: center;
+}
+
+.tool__icon {
+  margin-bottom: 30px;
+}
+
+.tools__button {
+  margin-top: 60px;
+  text-align: center;
+  @include media-mobile {
+    margin-top: 0;
+  }
+}
+
+.tool {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tool-container {
+  @include media-tablet {
+    flex-wrap: wrap;
+    > .tool {
+      flex-basis: 43%;
+      margin-bottom: 47px;
+    }
+  }
+  @include media-mobile {
+    > .tool {
+      flex-basis: 100%;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.wrapper {
+  max-width: $content-width;
+  margin: auto;
+  // empty elements have 0 as default
+  @include media-laptop {
+    padding: 0 46px;
+  }
+  @include media-mobile {
+    padding: 0 21px;
+  }
+}
