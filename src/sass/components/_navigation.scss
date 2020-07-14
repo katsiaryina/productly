@@ -5,8 +5,10 @@
 }
 
 .navigation__link {
+  text-decoration: none;
   list-style: none;
   padding: 0 10px;
+  color: $color-text;
   cursor: pointer;
   @extend %transition;
   &:hover {

@@ -854,8 +854,10 @@ h5 {
 }
 
 .navigation__link {
+  text-decoration: none;
   list-style: none;
   padding: 0 10px;
+  color: #544837;
   cursor: pointer;
 }
 .navigation__link:hover {
